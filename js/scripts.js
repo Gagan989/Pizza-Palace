@@ -61,3 +61,12 @@ $(document).ready(function(event)) {
     }
 
     pizzaSizeValue();
+
+    function pizzaCrustValue(){
+        for(var i = 0;i<document.getElementsByName('pizzacrust').length;i++){
+          if(document.getElementsByName('pizzacrust')[i].checked){
+             crustPrice = parseInt(document.getElementsByName('pizzacrust')[i].value);
+             crustName = document.getElementsByName('pizzacrust')[i].id;
+          }
+        }
+    }
