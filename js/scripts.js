@@ -88,4 +88,9 @@ $(document).ready(function(event)) {
         pizzaType,sizePrice,crustPrice,toppingPrice
     );
 
-    
+$("p#total").text("TOTAL: "+newPizzaOrder.total()+"ksh");
+
+$("input[name='delivery']").on("click", function(){
+    $(".delivery-form1").toggle(this.value === "false" && this.checked);
+  });
+
