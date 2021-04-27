@@ -8,5 +8,19 @@ function pizzaOrder (name,size,crust,topping)
 
 pizzaOrder.prototype.total=function(){
     return this.size+this.crust+this.topping;
-    
+
 }
+
+$(document).ready(function(event)) {
+    event.preventDefault();
+}
+
+    var pizzaType;
+    var sizePrice = 0;
+    var crustPrice = 0;
+    var toppingPrice = 0;
+    var sizeName;
+    var crustName =' ';
+    var toppingsName = ' ';
+
+    
