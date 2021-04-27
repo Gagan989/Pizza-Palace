@@ -113,6 +113,15 @@ $("input[name='delivery']").on("click", function(){
         $("div#totalOrder").text("Grand Total = "+pizzaGrandTotal+"ksh");
     }
 
-    
+    $(".confirm2").click(function(event){
+        alert("Thank-You for ordering with us.Your order will be ready shortly");
+        alert($("div#totalOrder").text());
+      })
+  
+    })
+
+)};
+
+
 
         
