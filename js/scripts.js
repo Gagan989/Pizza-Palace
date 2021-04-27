@@ -106,3 +106,13 @@ $("input[name='delivery']").on("click", function(){
                            "<p><span class='neworder'> Crust: "+ crustName +"</span></p><br>" +
                            "<p><span class='neworder totalorder' > Total in ksh : "+ newPizzaOrder.total()+ "</span></p><br><br>"
                            );
+
+    var pizzaGrandTotal = 0;
+    for(var i = 0;i<$('.totalorder').length;i++){
+        pizzaGrandTotal  += newPizzaOrder.total();
+        $("div#totalOrder").text("Grand Total = "+pizzaGrandTotal+"ksh");
+    }
+
+    
+
+        
