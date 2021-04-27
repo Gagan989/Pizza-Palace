@@ -23,4 +23,31 @@ $(document).ready(function(event)) {
     var crustName =' ';
     var toppingsName = ' ';
 
-    
+    function pizzaTypeValue(){
+        if($("#Modal1").is(':visible')){
+          pizzaType = 'BBQ Steak';
+        }else if ($("#Modal2").is(':visible')) {
+          pizzaType = "Chicken & Beef";
+  
+        }else if ($("#Modal3").is(':visible')) {
+          pizzaType = "Chcken Tikka";
+  
+        }else if ($("#Modal4").is(':visible')) {
+          pizzaType = "Meat Lovers";
+  
+        }else if ($("#Modal5").is(':visible')) {
+          pizzaType = "Vegetarian";
+  
+        }else if ($("#Modal6").is(':visible')) {
+          pizzaType = "Cheese";
+  
+        }else if ($("#Modal7").is(':visible')) {
+          pizzaType = "Hawaiian";
+  
+        }else if ($("#Modal8").is(':visible')) {
+          pizzaType = "Combination";
+  
+        }
+    }  
+    pizzaTypeValue();
+      
