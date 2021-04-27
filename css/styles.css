@@ -1,6 +1,30 @@
-@import url(@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
-
 body {
     background-image: url(../pizza.jpegp);
     background-position: center;
+    font-family: cursive;
+}
+.jumbotron{
+    background-color:rgb(186, 198, 211);
+    text-align: center;
+    opacity:0.9;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 2px;
+}
+.jumbotron h1{
+    font-family: 'Times New Roman', Times, serif;
+     font-size: 50px;
+     font-weight: bolder;
+     text-align: center;
+     margin-top: 2%;
+     font-stretch: extra-expanded;
+   }
+ .jumbotron p{
+  font-size: 24px;
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
+  }
+h1{
+    font-style: italic;
 }
