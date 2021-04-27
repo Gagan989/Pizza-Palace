@@ -114,4 +114,19 @@ h4{
     font-size: 20px;
     font-weight: bolder;
 }
+.confirm{
+    background-color:#d35400;
+    text-align: center;
+}
   
+.neworder{
+    margin-top: 3%;
+    font-size: 15px;
+}
+  
+#Orders h4{
+    padding-bottom:5%;
+}
+.delivery-form1{
+    display: none;
+}  
