@@ -1,6 +1,6 @@
 body {
     background-image: url(../pizza.jpegp);
-    background-position: center;
+    background-position: left;
     font-family: cursive;
 }
 .jumbotron{
@@ -18,13 +18,71 @@ body {
      text-align: center;
      margin-top: 2%;
      font-stretch: extra-expanded;
+     color: black;
    }
  .jumbotron p{
   font-size: 24px;
   text-align: center;
   font-weight: lighter;
   font-style: italic;
+
   }
 h1{
     font-style: italic;
 }
+.panel{
+    font-weight: bolder;
+    color: white;
+}
+h4{
+    font-size: 100px;
+    color: aliceblue;
+    font-weight:bolder;
+}.pizza-types{
+    opacity: 0.9;
+    border-radius: 2px;
+  }
+
+  .pizza-types h1{
+   margin-top:-1%;
+     margin-bottom:2%;
+    background-size: 50%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #d35400;
+    text-align: center;
+
+  }
+
+  .pizza-types h2{
+   font-size: 30px;
+   font-weight: bolder;
+
+ }
+
+ .pizza-types h2,p{
+   padding-left: 2%;
+ }
+.pizza-types p{
+  margin-top: -3%;
+}
+
+.pizza-types .btn{
+  text-align: right;
+
+  background-color: darkorange;
+  border:none;
+
+ }
+
+ .tagforpizzatype{
+   color: palegreen;
+   font-family: cursive;
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+ .pizza-types .btn:hover{
+   transform: scale(2,2);
+
+  }
