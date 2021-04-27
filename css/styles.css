@@ -43,7 +43,7 @@ h4{
     border-radius: 2px;
   }
 
-  .pizza-types h1{
+.pizza-types h1{
    margin-top:-1%;
      margin-bottom:2%;
     background-size: 50%;
@@ -52,9 +52,9 @@ h4{
     color: #d35400;
     text-align: center;
 
-  }
+}
 
-  .pizza-types h2{
+.pizza-types h2{
    font-size: 30px;
    font-weight: bolder;
 
@@ -75,14 +75,60 @@ h4{
 
  }
 
- .tagforpizzatype{
+.tagforpizzatype{
    color: palegreen;
    font-family: cursive;
    font-size: 20px;
    font-weight: bold;
  }
 
- .pizza-types .btn:hover{
+.pizza-types .btn:hover{
    transform: scale(2,2);
 
   }
+
+.modal-backdrop, .modal-backdrop.fade.in {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    background: #000;
+    }
+  
+.modal h4 {
+    font-weight: bolder;
+}
+  
+.crust, .size{
+    display: inline;
+    padding-left: 2%
+}
+.place-order{
+    background-color:#d35400;
+    text-align: center;
+}
+  
+.place-order:hover{
+    background-color: #e67e22;
+}
+  
+#total{
+    font-size: 20px;
+    font-weight: bolder;
+  
+}
+  
+.confirm{
+    background-color:#d35400;
+    text-align: center;
+}
+  
+.neworder{
+    margin-top: 3%;
+    font-size: 15px;
+}
+  
+#Orders h4{
+    padding-bottom:5%;
+}
+.delivery-form1{
+    display: none;
+}
