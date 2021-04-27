@@ -50,4 +50,14 @@ $(document).ready(function(event)) {
         }
     }  
     pizzaTypeValue();
-      
+    
+    function pizzaSizeValue(){
+        for(var i = 0;i<document.getElementsByName('pizzasize').length;i++){
+          if(document.getElementsByName('pizzasize')[i].checked){
+             sizePrice = parseInt(document.getElementsByName('pizzasize')[i].value);
+             sizeName = document.getElementsByName('pizzasize')[i].id;
+          }
+        }
+    }
+
+    pizzaSizeValue();
