@@ -83,3 +83,9 @@ $(document).ready(function(event)) {
     }
  
     toppingPriceTotal();
+
+    var  newPizzaOrder = new pizzaOrder(
+        pizzaType,sizePrice,crustPrice,toppingPrice
+    );
+
+    
