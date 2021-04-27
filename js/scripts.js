@@ -100,3 +100,9 @@ $("input[name='delivery']").on("click", function(){
     var location = $("#new-location").val();
     alert(fullname + " your Order will be delivered to "+location);
   })
+
+  $("div#Orders").append("<p><span class='neworder'> Pizza Type: "+ newPizzaOrder.name + " - "+sizeName+ "</span></p><br>" +
+                           "<p><span class='neworder'> Toppings: "+ toppingsName +"</span></p><br> " +
+                           "<p><span class='neworder'> Crust: "+ crustName +"</span></p><br>" +
+                           "<p><span class='neworder totalorder' > Total in ksh : "+ newPizzaOrder.total()+ "</span></p><br><br>"
+                           );
